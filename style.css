@@ -1,0 +1,45 @@
+body{
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #ffffff00;
+}
+header{
+  background-color: #06fa50;
+  color: rgb(5, 5, 5);
+  padding: 20px;
+  text-align: center;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li{
+  display: inline;
+  margin-right: 15px;
+}
+nav ul li a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+section{
+  padding: 20px;
+  margin: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+form input, form textarea{
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #15ff00;
+}
+form button{
+    padding: 10px;
+    background-color: #0aff54;
+    color: rgb(255, 255, 255);
+    border: none;
+}
